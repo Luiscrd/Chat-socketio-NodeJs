@@ -1,0 +1,7 @@
+# Modulos Node
+node_modules/
+# Archivo constraseñas
+.env
+# Carpetas de imagenes subidas
+uploads/img/productos/**
+uploads/img/usuarios/**

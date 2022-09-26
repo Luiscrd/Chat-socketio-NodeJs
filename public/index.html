@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>CHAT CON SOKETS - NODEJS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+
+<body>
+    <div class="d-flex justify-content-evenly align-items-center titulo">
+        <img src="./images/nodejsb.png" alt="Node" class="logo-node">
+        <p class="titulo-node">CHAT CON SOKETS</p>
+        <img src="./images/exp.png" alt="Node" class="logo-ex">
+    </div>
+    <div class="cuerpo">
+        <img src="./images/nodejs-ex-logo.png" alt="Rest" class="logo-node-ex">
+        <div class="cuerpo-enlace">
+            <a href="https://expressjs.com/en/guide/routing.html" class="enlace" target="_blank">Guide Express</a>
+            <br>
+            <!-- <a href="/api" class="enlace">API - REST</a>
+            <br> -->
+            <span id="nombre-log"></span>
+            <br>
+            <button id="btn-login">Mostrar Login</button>
+            <button id="btn-logout" style="display: none;">Logout</button>
+            <form class="row flex justify-content-center mt-5 form-prin" id="form-prin">
+                <div class="col-auto">
+                    <label for="staticEmail2" class="visually-hidden">Email</label>
+                    <input value="pruebad@prueba.com" name="correo" type="text" class="form-control" id="staticEmail2" placeholder="Email" required>
+                </div>
+                <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Password</label>
+                    <input value="1987654321" name="password" type="password" class="form-control" id="inputPassword2"
+                        placeholder="Password" required>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn-login mb-3">Loguin manual</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div id="g_id_onload" data-client_id="677156888447-dhmcpdhf14m9d2v9n2nv0e5sgk37q3g4.apps.googleusercontent.com"
+        data-callback="handleCredentialResponse" data-auto_prompt="false">
+    </div>
+    <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with"
+        data-shape="rectangular" data-logo_alignment="left">
+    </div>
+    <script src="./js/auth.js"></script>
+    <script>
+        
+    </script>
+    <span class="by">By: LcrPrograming</span>
+
+</body>
+
+</html>
