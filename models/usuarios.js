@@ -26,6 +26,10 @@ const UsuarioSchema = Schema({
         type: Boolean,
         default: true,
     },
+    sala: {
+        type: String,
+        required: [true, 'La sala es obligatoria'],
+    },
     google: {
         type: Boolean,
         default: false,
